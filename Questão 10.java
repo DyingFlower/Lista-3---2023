@@ -15,7 +15,7 @@ ordem. */
 		}
 		System.out.println("Escreva o tamanho do vetor 2: ");
 		int tamanho2 = leitor.nextInt();
-		int[] vetor2= new int[tamanho1];
+		int[] vetor2= new int[tamanho2];
 		for(int i=0;i<tamanho2;i++) {
 			System.out.println("Escreva o elemento "+i+" do vetor 2:");
 			vetor2[i]=leitor.nextInt();
